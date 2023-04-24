@@ -618,6 +618,33 @@ section {
   justify-content: flex-start;
 }
 
+.buttn {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  background-color: #27AE60;;
+  border-radius: 10px;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.buttn:hover {
+  background-color: #b2becd;
+  cursor: pointer;
+  color: brown;
+}
+
+@media only screen and (max-width: 768px) {
+  .btn {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+}
+
 /*Independed components*/
 .btn-con {
   display: flex;
